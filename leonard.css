@@ -1,0 +1,21 @@
+#demo{
+    box-shadow: gray 5px 5px;
+}
+body{
+    background-color: rgba(216, 253, 4, 0.575);
+}
+#demo1{
+    background-color: azure;
+    padding: 2%;
+    border: 1px solid rgb(202, 202, 72);
+    border-radius: 5%;
+}
+#demo2{
+    background-color: azure;
+    padding: 2%;
+    border: 1px solid rgb(202, 202, 72);
+    border-radius: 5%;
+}
+#demo1:hover{
+    background-color: rgb(213, 218, 142);
+}
