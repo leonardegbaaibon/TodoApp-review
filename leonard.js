@@ -1,7 +1,3 @@
-
-
-
-
 const handleClick = () => {
   var txt = document.getElementById("demo2").value;
   var txt1 = document.createElement("div");
@@ -11,13 +7,18 @@ const handleClick = () => {
   var btnText2 = document.createTextNode("Delete");
   var btn1 = document.createElement("button");
   var btn2 = document.createElement("button");
+
   console.log(txt);
   btn1.onclick = function(){onClick()};
   btn1.onmouseover = function(){onMouseOver()};
   btn1.onmouseout = function(){onMouseOut()};
   btn2.onmouseover = function(){onMouseOver2()};
   btn2.onmouseout = function(){onMouseOut2()};
-  txt.replace(txt2, changeTxt2)
+  txt1.setAttribute("id","myRoot")
+  txt1.setAttribute("type","HTML")
+  var test = document.getElementById("myRoot");
+  // document.getElementById("myRoot") = 
+  // test.replace(txt2, "wow")
   txt1.setAttribute(
     "style",
     "background-color: rgba(216, 253, 4, 0.575); padding:5%; margin:5px; display: flex; font-weight: 800; font-size: 100%; font-family: cursive;"
